@@ -1,26 +1,23 @@
 
+<div id="why">&nbsp;</div>   
 <!--::Why Section::-->
-<section id="whysection">
-	<div class="container">
+<section id="whysection" class="pad80">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-6 order-2 order-lg-1"><img src="images/technology.png" class="img-fluid" alt=""></div>
+			<div class="col-lg-6 order-2 order-lg-1"><img src="{{site.why.image }}" class="img-fluid" alt=""></div>
 			<div class="col-lg-6 order-1 order-lg-2">
-				<h2 class="mb-4">Why FoodDX?</h2>
-				<p class="sub-title">Our solution to help you transform the way you think and feel about food.</p>
-				
-				<div class="txtbtm">
-					<div class="row">
-						<div class="col-lg-6">
-							<span><img src="images/icon.svg" class="img-fluid" alt=""></span>
-							<h4>Get real-time feedback on your meals</h4>
-							<p>Upload photos of your meal for real-time.</p>
-							<p>nutrition scores and food tips.</p>
-						</div>
-						
-						<div class="col-lg-6 pl-4">
-							<span><img src="images/icon.svg" class="img-fluid" alt=""></span>
-							<h4>Go at your own <br>pace</h4>
-							<p>Lasting change happens in the micro moments. We focus on these moments to help you reach your long-term goals.</p>
+				<div class="whycontent">
+					<h2 class="mb-4">{{site.why.title }}</h2>
+					<p class="sub-title">{{site.why.subTitle }}</p>					
+					<div class="txtbtm">
+						<div class="row">
+							{% for list in  site.why.lists %}
+								<div class="col-lg-6">
+									<span><img src="{{ list.icon }}" class="img-fluid" alt=""></span>
+									<h4>{{ list.title }}</h4>
+									{{ list.info }}									
+								</div>
+							{% endfor %}							
 						</div>
 					</div>
 				</div>
@@ -28,19 +25,18 @@
 			
 			<div class="col-lg-12 order-3 order-lg-3 mobsection">
 				<div class="row">
-						<div class="col-lg-6">
-							<span><img src="images/icon.svg" class="img-fluid" alt=""></span>
-							<h4>Get real-time feedback on your meals</h4>
-							<p>Upload photos of your meal for real-time nutrition scores and food tips.</p>
+					{% for list in  site.why.lists %}
+						<div class="col-lg-6 {% if forloop.index == even %} pl-4 {% endif %}">
+							<span><img src="{{ list.icon }}" class="img-fluid" alt=""></span>
+							<h4>{%if list.mobTitle %} {{ list.mobTitle }} {% else %} {{ list.title }} {% endif %}</h4>
+							{%if list.mobInfo %} {{ list.mobInfo }} {% else %} {{ list.info }} {% endif %}								
 						</div>
-						
-						<div class="col-lg-6 pl-4">
-							<span><img src="images/icon.svg" class="img-fluid" alt=""></span>
-							<h4>Go at your own <br>pace</h4>
-							<p>Lasting change happens in the micro moments. We focus on these moments to help you reach your long-term goals.</p>
-						</div>
-					</div>
+					{% endfor %}
+					
+				</div>
 			</div>
+
+
 		</div>
 	</div>
 </section>

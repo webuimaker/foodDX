@@ -27,6 +27,62 @@ logo: "images/logo/FoodDXByHolmusk_logo.svg"
 twitter_username: jekyllrb
 github_username:  jekyll
 
+navbar:
+- name: Our Nutrition Experts
+  url: "#"
+- name: Holmusk
+  url: "#"
+hero:
+  enable: true
+  heroTitle:  Get healthy, your way with FoodDX
+  herodescription: "Get insights on how to improve your diet with the help from our proprietary technology and personalised feedback from our nutrition experts."
+  heroBtn: Learn More
+  heroUrl: "#why"
+  heroImage: "images/MainHomePage_Illustration.png"
+why:
+  enable: true
+  title:  Why FoodDX?
+  subTitle: "Our solution to help you transform the way you think and feel about food."
+  image: "images/technology.png"
+  lists:
+  - icon: "images/icon.svg"
+    title: Get real-time feedback on your meals
+    info: >- 
+        <p>Upload photos of your meal for real-time</p> 							<p>Nutrition scores and food tips.</p>
+    mobTitle: Get real-time feedback on your meals
+    mobInfo: >- 
+      <p>Upload photos of your meal for real-time nutrition scores and food tips.</p>
+  - icon: "images/icon.svg"
+    title: Go at your own <br>pace
+    info: >- 
+        <p>Lasting change happens in the micro moments. We focus on these moments to help you reach your long-term goals.</p>
+    mobTitle: Go at your own <br>pace
+    mobInfo: >-
+      <p>Lasting change happens in the micro moments. We focus on these moments to help you reach your long-term goals.</p>
+  
+technology:
+  enable: true
+  title: Our Technology
+  image: "images/smartfoodtips.png"
+  subTitle: >-
+    <h6>FoodDX technology is based on <strong>behavioural modification </strong>strategies.</h6>
+    <h6>Developed by nutrition experts at Holmusk for over 2 years, the platform uses clinically proven techniques to help you manage your diet and lead a healthier life.</h6>
+  service:
+  - icon: images/icon.svg
+    title: AI Food Scoring
+    lists:
+    - text:  Artificial intelligence
+    - text:  Real-time classification based on nutritional and health value
+    - text:  Developed using cutting-edge computer vision
+    - text:  Leverages on our real-world dataset of over 80,000 photos
+  - icon: images/icon.svg
+    title: Smart Tips for Better Health
+    lists:
+    - text:  Motivational content
+    - text:  Engaging tips on how to improve your diet
+    - text:  Meal recommendations
+    - text:  Providing ways to move to higher star rating
+
 # Build settings
 theme:
 plugins:

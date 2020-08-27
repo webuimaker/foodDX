@@ -3,16 +3,15 @@
 	<div class="container-fluid">
 		<div class="row align-items-center">
 			<div class="w-100 justify-content-end rel bannermain">
-				<div class="bannercontent order-1 order-lg-1">
-					<div class="text">
-						<h1>Get healthy, your way with FoodDX</h1>
-						<p>Get insights on how to improve your diet with the help from our proprietary technology and personalised feedback from our nutrition experts.</p>
-						<p><a href="#" class="btn btn-primary btn-cta">Learn More</a></p>
+				<div class="bannercontent order-1 order-lg-1 bannercontent2">
+					<div class="text text2">
+						<h1>{{site.hero.heroTitle }}</h1>
+						<p>{{site.hero.herodescription }}</p>
+						<p><a href="{{site.hero.heroUrl }}" class="btn btn-primary btn-cta">{{site.hero.heroBtn }}</a></p>
 					</div>
-				</div>
-				
+				</div>				
 				<div class="hero-img p-0 order-2 order-lg-2">
-					<img src="images/MainHomePage_Illustration.png" class="img-fluid" alt="">
+					<img src="{{site.hero.heroImage }}" class="img-fluid" alt="{{site.hero.heroTitle }}">
 				</div>
 			</div>
 		</div>

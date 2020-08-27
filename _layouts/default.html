@@ -2,9 +2,21 @@
 {% include head.html %}
 <body>
     {% include header.html %}
-    {% include hero.html %}
-    {% include why.html %}
-    {% include our-technology.html %}
+
+    {% if site.hero.enable %}
+        {% include hero.html %}
+    {% endif %}
+    
+    {% if site.why.enable %}
+        {% include why.html %}
+    {% endif %}
+    
+    {% if site.technology.enable %}
+        {% include our-technology.html %}
+    {% endif %}
+
+    
+    
     {% include transforming.html %}
     {% include partners.html %}
 <div class="container">
