@@ -3,15 +3,13 @@
 <section id="technologysection" class="fullwidth">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="technologypic order-2 order-lg-2"><img src="{{ site.technology.image}}" class="img-fluid" alt=""></div>
-			
+			<div class="technologypic order-2 order-lg-2"><img src="{{ page.technology.image}}" class="img-fluid" alt=""></div>			
 			<div class="col-lg-5 order-1 order-lg-1">
-				<h2 class="mb-4">{{ site.technology.title}}</h2>
-				{{ site.technology.subTitle}}
-				
+				<h2 class="mb-4">{{ page.technology.title}}</h2>
+					{{ page.technology.subTitle}}				
 				<div class="txtbtm">
 					<div class="row">
-						{% for list in  site.technology.service %}
+						{% for list in  page.technology.service %}
 							<div class="col-lg-6 {% if forloop.index == 2 %} pl-4 {% endif %}">
 								<span><img src="{{list.icon}}" class="img-fluid" alt="{{list.title}}"></span>
 								<h4>{{list.title}}  </h4>
@@ -27,31 +25,7 @@
 
 			</div>
 			
-			<div class="col-lg-12 order-3 order-lg-3 mobsection">
-				<div class="row">
-						<div class="col-lg-6">
-							<span><img src="images/icon.svg" class="img-fluid" alt=""></span>
-							<h4>AI Food Scoring</h4>
-							<ul>
-								<li>Artificial intelligence</li>
-								<li>Real-time classification based on nutritional and health value</li>
-								<li>Developed using cutting-edge computer vision</li>
-								<li>Leverages on our real-world dataset of over 80,000 photos</li>
-							</ul>
-						</div>
-						
-						<div class="col-lg-6 pl-4">
-							<span><img src="images/icon.svg" class="img-fluid" alt=""></span>
-							<h4>Smart Tips for Better Health</h4>
-							<ul>
-								<li>Motivational content</li>
-								<li>Engaging tips on how to improve your diet</li>
-								<li>Meal recommendations</li>
-								<li>Providing ways to move to higher star rating</li>
-							</ul>
-						</div>
-			  </div>
-			</div>
+			
 		</div>
 	</div>
 </section>

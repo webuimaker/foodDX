@@ -29,9 +29,10 @@ github_username:  jekyll
 
 navbar:
 - name: Our Nutrition Experts
-  url: "#"
+  url: "/nutrition/"
 - name: Holmusk
   url: "#"
+
 hero:
   enable: true
   heroTitle:  Get healthy, your way with FoodDX
@@ -39,6 +40,7 @@ hero:
   heroBtn: Learn More
   heroUrl: "#why"
   heroImage: "images/MainHomePage_Illustration.png"
+
 why:
   enable: true
   title:  Why FoodDX?
@@ -82,6 +84,37 @@ technology:
     - text:  Engaging tips on how to improve your diet
     - text:  Meal recommendations
     - text:  Providing ways to move to higher star rating
+
+holmuskSection:
+  enable: true
+  title: Transforming <br> lives through evidence-based medicine
+  image: "images/smartfoodtips.png"
+  subTitle: >-
+    Looking to use FoodDX?
+  info: >- 
+    FoodDX is currently only available via our partner apps. <br><br> If you'd like to partner with us, please send us an email at <strong><a href="#">fooddx@holmusk.com.</a></strong></p>
+  rightSide:
+    heading: Supercharge your business with us
+    description: Enhance your digital platforms with FoodDX. Use our API to <br>access our digital solutions.
+    lists: 
+    - icon: images/icon.svg
+      title: Actionable approach for a healthier lifestyle
+      desc: Measure and improve users’ dietary choices with instant feedback on meals and food tips for better health. 
+    - icon: images/icon.svg
+      title: Robust technology with extensive food database
+      desc: Adaptable AI model built on our extensive food database, capable of supporting new regions and food cultures. 
+    - icon: images/icon.svg
+      title: Health management made easy
+      desc: Effective lifestyle, weight and chronic disease management tools to improve users’ health.
+
+footer:   
+  logo: "/images/FoodDXLogo.svg"
+  copyright: "Copyright &copy; 2020 Holmusk, Inc. <br class='d-block d-sm-none'> All rights reserved"  
+  links:
+  - name: "Terms &amp; Conditions"
+    url: "/terms"
+  - name: Privacy Policy
+    url: "/privacy"
 
 # Build settings
 theme:

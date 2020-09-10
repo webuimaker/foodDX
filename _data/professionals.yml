@@ -1,0 +1,20 @@
+- name: Grace Anna
+  image: /images/health-grace.png
+  position: Nutritionist
+  info:  Grace is an Australian-trained nutritionist, who is passionate about health education and to educate individuals to make better health choices! She believes that a happier and healthier life can be attained by making simple changes in lifestyle habits, one step at a time. Any change is a good change, and it should never be put down as too small or insignificant!
+- name: Nada Abdul
+  image: /images/health-nada-1.png
+  position: Nutritionist
+  info:  Nada is an Australian trained nutritionist who is passionate about food and nutrition. She believes that sustainable health is key to succeed in achieving work and life balance. Having been born and bred in Singapore, she understands the struggle people face while making lifestyle changes hence she is prepared with tips to help people to overcome those barriers.
+- name: Georgen Thye
+  image: /images/health-georgen-1.png
+  position: Dietitian
+  info:  Georgen is a dietitian with 4 years of clinical experience at the National Heart Institute of Malaysia and 3 years of experience in the field of digital health. His knowledge of nutrition and dietetics has changed his life, helping him to lose 30kg and keeping it off. He is very passionate in evidenced-based nutrition practice. Let him share with you his expertise in food and nutrition, so you can take better care of your health, to worry less and live more. Georgen also likes cooking, singing, and photography.
+- name: Patricia Cheong
+  image: /images/health-patricia.png
+  position: Dietitian
+  info: Patricia is an Australian Accredited Dietitian who is passionate about the role of how nutrition and lifestyle play in living a healthier and longer life. Patricia looks forward to helping others to find a balance between good nutrition and active living with their busy lifestyles. During her free time, Patricia enjoys travelling, hiking and exploring new cafes and restaurants.
+- name: Jowynna Yeo
+  image: /images/health-jowynna.png
+  position: Dietitian
+  info: Jowynna is a dietitian who is passionate about helping you through food and nutrition education. She too is a big lover of food, so we trust her to guide you through a personalized health plan that you will enjoy, without the need to eliminate your favourite food. She believes in taking small steps towards a healthier lifestyle. and particularly enjoys working with children. She loves baking, grocery shopping and travelling.

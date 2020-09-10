@@ -1,14 +1,15 @@
 
 <!--::Footer Section::-->
-<footer id="footer">
-	<div class="container">
+<footer id="footer" class="pad80">
+	<div class="container-fluid">
 		<div class="row d-flex align-items-center">
-			<div class="col-lg-3"><a href="#"><img src="images/FoodDXLogo.svg" alt="logo"></a></div>
+			<div class="col-lg-3"><a href="#"><img src="{{ site.footer.logo}}" alt="FoodDX"></a></div>
 			<div class="col-lg-9 text-right">
 				<ul>
-					<li>Copyright &copy; 2020 Holmusk, Inc. All rights reserved</li>
-					<li><a href="#">Terms &amp; Conditions</a></li>
-					<li><a href="#">Privacy Policy</a></li>
+					<li>{{ site.footer.copyright}}</li>
+					{% for list in  site.footer.links %}
+						<li><a href="{{list.url}}">{{list.name}}</a></li>
+					{% endfor %}
 				</ul>
 			</div>
 		</div>

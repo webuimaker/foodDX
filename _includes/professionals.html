@@ -1,0 +1,27 @@
+
+<!--::Nutrition Main Section::-->
+<section id="nutritionmain">
+	<div class="row">
+		<div class="col-md-12">
+            <h3>{{ page.professionals.title }}</h3>
+            {{ page.professionals.description }}
+		</div>
+	</div>
+	
+	<div class="teamlist">
+
+		{% for team in site.data.professionals %}
+			<div class="teamrow">
+				<div class="teamimg"><img src="{{team.image}}" alt=""></div>
+				<div class="teamcontent">
+					<h3>{{team.name}}</h3>
+					<h5>{{team.position}}</h5>
+					<p>{{team.info}}</p>
+				</div>
+			</div>
+		{% endfor %}
+		
+	</div>
+	<div class="clearfix"></div>
+</section>
+<!--::Nutrition Main Section::-->

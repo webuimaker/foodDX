@@ -1,13 +1,18 @@
 
 <!--::Partners Section::-->
 <section id="partnersection">
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-lg-12 text-center">
 				<h3>Our partners</h3>
-				<figure><img src="images/AIA-Logo.svg" class="img-fluid" alt=""></figure>
+				{% for member in site.data.partners %}
+					<figure><img src="{{ member.image }}" class="img-fluid" alt="{{ member.name }}"></figure>
+				{% endfor %}
+				
 			</div>
 		</div>
 	</div>
 </section>
 <!--::Partners Section::-->
+
+   

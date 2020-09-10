@@ -4,14 +4,14 @@
 <section id="whysection" class="pad80">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-6 order-2 order-lg-1"><img src="{{site.why.image }}" class="img-fluid" alt=""></div>
+			<div class="col-lg-6 order-2 order-lg-1"><img src="{{page.why.image }}" class="img-fluid" alt=""></div>
 			<div class="col-lg-6 order-1 order-lg-2">
 				<div class="whycontent">
-					<h2 class="mb-4">{{site.why.title }}</h2>
-					<p class="sub-title">{{site.why.subTitle }}</p>					
+					<h2 class="mb-4">{{page.why.title }}</h2>
+					<p class="sub-title">{{page.why.subTitle }}</p>					
 					<div class="txtbtm">
 						<div class="row">
-							{% for list in  site.why.lists %}
+							{% for list in  page.why.lists %}
 								<div class="col-lg-6">
 									<span><img src="{{ list.icon }}" class="img-fluid" alt=""></span>
 									<h4>{{ list.title }}</h4>
@@ -25,7 +25,7 @@
 			
 			<div class="col-lg-12 order-3 order-lg-3 mobsection">
 				<div class="row">
-					{% for list in  site.why.lists %}
+					{% for list in  page.why.lists %}
 						<div class="col-lg-6 {% if forloop.index == even %} pl-4 {% endif %}">
 							<span><img src="{{ list.icon }}" class="img-fluid" alt=""></span>
 							<h4>{%if list.mobTitle %} {{ list.mobTitle }} {% else %} {{ list.title }} {% endif %}</h4>

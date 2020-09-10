@@ -232,7 +232,7 @@ h2{
 #nutritionsection h4{font-weight:500; font-size:18px; line-height:36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin:25px 0 0;}
 #nutritionsection p{font-weight:normal; font-size:16px; line-height:24px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.6);}
 #nutritionmain{background:#ECEFF4; padding:80px 95px;}
-#nutritionmain h3{font-size:24px; font-weight:500; line-height: 36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin-bottom:10px;}
+#nutritionmain h3{font-size:24px; font-weight:500; line-height: 36px; letter-spacing: 0.5px; color: rgba(0, 0, 0, 0.87); margin-bottom:24px;}
 #nutritionmain p{font-weight: normal; font-size: 20px; line-height: 36px; color: rgba(0, 0, 0, 0.6);}
 #nutritionmain .teamlist{margin-top:40px; width:100%; float:left;}
 #nutritionmain .teamlist .teamimg{width:14%; float:left; padding-right:16px;}
@@ -240,7 +240,7 @@ h2{
 #nutritionmain .teamrow{width:100%; float:left; margin-bottom:48px;}
 #nutritionmain .teamcontent{width:80%; float:left; padding-top:16px;}
 #nutritionmain .teamcontent h3{font-weight:500; font-size: 18px; line-height: 22px; color: #0A519E; margin-bottom:0;}
-#nutritionmain .teamcontent h5{font-weight:normal; font-size:16px; line-height: 19px; color: rgba(0, 0, 0, 0.6);}
+#nutritionmain .teamcontent h5{font-weight:normal; font-size:16px; line-height: 19px; color: rgba(0, 0, 0, 0.6); margin: 8px 0px;}
 #nutritionmain .teamcontent p{font-size:16px; line-height: 24px; letter-spacing: 0.005em; color: rgba(0, 0, 0, 0.6);}
 .padright122{padding-right:100px;}
 .padright71{padding-right:51px;}

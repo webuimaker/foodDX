@@ -1,0 +1,27 @@
+<div id="nutrition">&nbsp;</div>   
+<!--::Nutrition Top Section::-->
+<section id="nutritionsection">
+	<div class="container-fluid">
+		<div class="topcontent">
+		    <div class="row">
+				<div class="col-md-6">
+					<div class="padright122">
+						<h2>{{page.nutrition.title }}</h2>
+						<p>{{page.nutrition.subTitle }}</p>
+					</div>
+                </div>                
+                {% for list in  page.nutrition.lists %}
+                    <div class="col-md-3">
+                        <div class=" {% cycle 'padright71', '' %}">
+                            <span><img src="{{ list.icon }}" class="img-fluid" alt="{{ list.title }}"></span>
+                            <h2 class="headingsml">{{ list.title }}</h2>
+                            <p class="contentsml">{{ list.info }}</p>
+                        </div>
+                    </div>
+				{% endfor %}
+					
+			</div>
+		</div>
+	</div>
+</section>
+<!--::Nutrition Top Section::-->

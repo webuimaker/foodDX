@@ -1,0 +1,64 @@
+<!doctype html>
+{% include head.html %}
+<body>
+    {% include header.html %}
+
+
+    {% if page.hero.enable %}
+        {% include hero.html %}
+    {% else %}
+
+        {% include page-header.html %} 
+
+    {% endif %}
+    
+    {% if page.why.enable %}
+        {% include why.html %}
+    {% endif %}
+    
+    {% if page.nutrition.enable %}
+        {% include nutrition.html %}
+    {% endif %}
+
+    
+    {% if page.technology.enable %}
+        {% include our-technology.html %}
+    {% endif %}
+    
+    
+    {% if page.professionals.enable %}
+        {% include professionals.html %}
+    {% endif %}
+    
+
+    {% if page.holmuskSection.enable %}
+        {% include transforming.html %}
+    {% endif %}
+
+    
+
+    <section id="termscontainer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    {{content}}                   
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    {% if page.partners.enable %}
+        {% include partners.html %}
+    {% endif %}
+
+
+    
+
+
+{% include footer.html %}
+
+{% include js.html %}
+
+
+</body>
+</html>
